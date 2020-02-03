@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -36,3 +37,30 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+    height: 95vh;
+    display: flex;
+    flex-direction: row
+    }
+.img-container {
+        width: -webkit-fill-available;
+        display: flex;
+        justifyContent: center;
+    }
+img: {
+        alignSelf: center;
+};
+
+.specs-container: {
+        width: -webkit-fill-available;      display: flex;
+        flexDirection: column;
+        justifyContent: space-around;
+        height: 50%;
+        margin: auto;
+    }
+    .checkout-and-cart-container: {
+            display: flex;
+            width: 40%;
+            justifyContent: space-between;
+    }
